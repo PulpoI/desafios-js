@@ -7,8 +7,9 @@ const correcto = "Tu respuesta es exacta"
 let dosPorTres = prompt("2 * 3?");
 if(dosPorTres.toUpperCase() == "LLUEVE"){
     alert(correcto)
-}else if(dosPorTres == 6){ 
+}else if(dosPorTres == 6 || dosPorTres.toUpperCase() == "SEIS"){ 
 //Acá queria poner "6 || SEIS" y el toUpperCase en la variable pero no lo pude hacer andar. Para probar el or
+//Lo resolví! Tenia que repetir la variable después del ||    
     alert("Aburrido")
 }else{
     alert(cumple)
