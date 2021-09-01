@@ -24,6 +24,19 @@ for (let i = 1; i <10; i++) {
     console.log(numero + " X " + i + " = " + resultado);
 }
 */
+/*
+alert("Sumara 5 veces y lo mostrara en consola");
+for (let i = 1; i <= 5; i++){
+    alert("Suma #" + i);
+    let numero1 = Number(prompt("Primer numero que desea sumar"))
+    let numero2 = Number(prompt("Segundo numero que desea sumar"))
+    let resultadoDeSuma;
+
+    resultadoDeSuma = numero1 + numero2;
+    console.log(numero1 + "+" + numero2 + "" + " = " + resultadoDeSuma)
+}
+*/
+
 
 // WHILE
 /*
@@ -33,7 +46,37 @@ while (edadMirta != 94) {
     edadMirta = prompt("Volve a interlo, Mirta tiene?");
     
 }
-*/    
+*/   
+/*
+let nombre = "";
+let contar = 0;
+
+alert("Introduzca nombres para crear un listado");
+nombre = prompt("Introduce un nombre");
+
+while (nombre == null || nombre == "") {
+    nombre = prompt("Introduce un nombre");
+}
+nombre = nombre.toUpperCase();
+
+while (nombre != "ESC") {
+    contar++;
+    console.log(contar + "- " +  nombre);
+    nombre = prompt("Introduce un nombre");
+    while (nombre == null || nombre == "") {
+        nombre = prompt("Introduce un nombre");
+    }
+    nombre = nombre.toUpperCase();
+}
+*/
+
+let numero = 0;
+let contar = 0;
+
+alert("Ingresa un numero y se mostrara 'Hola'");
+numero = parseInt(prompt("Ingresa un numero"));
+
+
 /*
 // SWITCH 
 let carrera = prompt("Ingresa tu carrera")
@@ -73,7 +116,7 @@ while (prenda != "ESC") {
 }
 */
 
-
+/*
 let mensaje = "Hola";
 let numeroHola = parseInt(prompt("Ingresa un numero del 1 al 3"));
 while (numeroHola != ""){
@@ -95,4 +138,5 @@ while (numeroHola != ""){
             numeroHola = parseInt(prompt("Proba con un numero del 1 al 3"));
             break;
     }
-}    
+}                                     
+*/  
