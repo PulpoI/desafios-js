@@ -70,11 +70,25 @@ while (nombre != "ESC") {
 }
 */
 
+
+
+
 let numero = 0;
 let contar = 0;
 
 alert("Ingresa un numero y se mostrara 'Hola'");
 numero = parseInt(prompt("Ingresa un numero"));
+
+while (numero == null || numero == "" || isNaN(numero) || numero <= 0) {
+    numero = parseInt(prompt("Ingresa un numero, por favor"));
+}
+
+while (contar < numero) {
+    console.log((contar + 1) + "- Hola");
+    contar += 1;
+}
+
+
 
 
 /*
@@ -140,3 +154,4 @@ while (numeroHola != ""){
     }
 }                                     
 */  
+
