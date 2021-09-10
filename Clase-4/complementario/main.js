@@ -29,7 +29,7 @@ alert("¡Gracias por tu compra!, el precio total es de: $" + precioConIva);
 let cupon = prompt("Si tenes un cupn aplicalo a continuación:");
 
 //Confirmar cupon 
-while (cupon !== cuponDescuento) {
+while (cupon != cuponDescuento) {
     alert("El cupón no es válido");
     cupon = prompt("Si tenes un cupon aplicalo a continuación:");
 }
