@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header, main, footer {
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    padding: 30px 0;
+    background-color: whitesmoke;
+}
+
+main {
+    flex-direction: column;
+    align-items: center;
+    padding: 200px 0;
+}
+
+footer {
+    background-color: whitesmoke;
+    height: 74px;
+    align-items: center;
+}
